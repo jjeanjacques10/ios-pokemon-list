@@ -1,6 +1,6 @@
 # Pokemon List - iOS
 
-Projeto desenvolvido como Prova da Faculdade FIAP
+Projeto desenvolvido como atividade avaliativa da matéria "Desenvolvimento Mobile Apps e Games -iOS", Faculdade de Informatica e administração Paulista (FIAP)
 
 # Screenshots
 
@@ -17,9 +17,14 @@ Projeto desenvolvido como Prova da Faculdade FIAP
                     width="250" />
                 </br>
             </td>
+            <td style="text-align: center">
+                <img src="/images/img_3.gif"
+                    width="250" />
+                </br>
+            </td>
         </tr>
      </table>
 </div>
 
 ---
-developed by Jean Jacques
+Developed by Jean Jacques
