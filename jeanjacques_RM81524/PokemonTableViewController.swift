@@ -24,6 +24,7 @@ class PokemonTableViewController: UITableViewController {
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedPokemon = indexPath.row
         performSegue(withIdentifier: "pokemonDetail", sender: nil)
     }
 
@@ -40,9 +41,9 @@ class PokemonTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        selectedPokemon = indexPath.row
+    
         // Configure the cell...
-        let poke = pokemons[selectedPokemon].split{$0 == "_"}.map(String.init)
+        let poke = pokemons[indexPath.row].split{$0 == "_"}.map(String.init)
         cell.textLabel?.text = poke[0]
         cell.detailTextLabel?.text = poke[1]
         cell.imageView?.image = UIImage(named: pokemons[indexPath.row] + ".jpeg")
