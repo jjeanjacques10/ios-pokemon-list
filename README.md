@@ -1,6 +1,6 @@
 # Pokemon List - iOS
 
-Projeto desenvolvido como atividade avaliativa da matéria "Desenvolvimento Mobile Apps e Games -iOS", Faculdade de Informatica e administração Paulista (FIAP)
+Projeto desenvolvido como atividade avaliativa da matéria "Desenvolvimento Mobile Apps e Games -iOS", [Faculdade de Informática e Administração Paulista (FIAP)](https://www.fiap.com.br/). Foi feito utilizando TableViewController e passagem de dados entre telas.
 
 # Screenshots
 
